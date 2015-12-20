@@ -4,6 +4,7 @@ set t_Co=256
 syntax enable
 colorscheme desert
 set number
+highlight LineNr ctermfg=white ctermbg=darkgrey
 set laststatus=2
 filetype indent on
 
