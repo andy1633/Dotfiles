@@ -1,3 +1,8 @@
+execute pathogen#infect()
+
+set laststatus=2
+let g:airline_powerline_fonts = 1
+
 set nocompatible
 filetype plugin indent on
 set t_Co=256
