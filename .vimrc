@@ -10,12 +10,15 @@ syntax enable
 colorscheme elflord
 set number
 set laststatus=2
-filetype indent on
 
 set nohlsearch
 set incsearch
 set ignorecase
 
+filetype indent on
+set autoindent
+
+set backspace=2
 set ruler
 set autoindent
 set tabstop=2
