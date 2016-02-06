@@ -11,12 +11,15 @@ colorscheme elflord
 set number
 highlight LineNr ctermfg=white ctermbg=darkgrey
 set laststatus=2
-filetype indent on
 
 set nohlsearch
 set incsearch
 set ignorecase
 
+filetype indent on
+set autoindent
+
+set backspace=2
 set ruler
 set autoindent
 set tabstop=2
