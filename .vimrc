@@ -29,4 +29,4 @@ set shiftround
 set expandtab
 
 set undofile
-set undodir=/home/andy/.vimundo/
+set undodir=/home/andy/.vim/.vimundo/
