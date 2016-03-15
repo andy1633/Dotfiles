@@ -3,6 +3,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
@@ -22,7 +23,9 @@ let g:airline_powerline_fonts = 1
 set nocompatible
 set t_Co=256
 syntax enable
-colorscheme elflord
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 set number
 set laststatus=2
 
