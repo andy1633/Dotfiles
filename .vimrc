@@ -1,15 +1,29 @@
-execute pathogen#infect()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'bling/vim-airline'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'rdnetto/ycm-generator'
+
+call vundle#end()
+
+filetype plugin indent on
+
+map <C-K> :pyf /usr/share/vim/addons/syntax/clang-format-3.7.py<cr>
+imap <C-K> :pyf /usr/share/vim/addons/syntax/clang-format-3.7.py<cr>
 
 set laststatus=2
 let g:airline_powerline_fonts = 1
 
 set nocompatible
-filetype plugin indent on
 set t_Co=256
 syntax enable
 colorscheme elflord
 set number
-highlight LineNr ctermfg=white ctermbg=darkgrey
 set laststatus=2
 
 set nohlsearch
@@ -29,4 +43,4 @@ set shiftround
 set expandtab
 
 set undofile
-set undodir=/home/andy/.vim/.vimundo/
+set undodir=~/.vim/vimundo/
