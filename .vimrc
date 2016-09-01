@@ -10,8 +10,6 @@ Plugin 'yggdroot/indentline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/ycm-generator'
 
 call vundle#end()
 
